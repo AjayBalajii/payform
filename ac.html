@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+        function validate(){
+            alert("paid successfully");
+            window.location="tq.html";
+            return  false;
+        }
+            
+        </script>
+    </head>
+    <body>
+        <body>
+            <div style="text-align: center ;
+            width: 600px;
+              height: 400px;  
+              padding: 50px;
+              background-color: rgb(230, 221, 221);
+              margin-top: 100px;
+              margin-left: 300px;
+              box-shadow: 3px 3px black;
+              border: 2px solid rgb(39, 30, 30);">
+                      <label style="text-align: center; font-weight: bold;">ACCOUNT DETAILS</label><br><br>
+                      <form id="form_id" method="post" name="myform">
+    <label>Acc NO:</label>
+    <input type="text" style="background-color: slategray; margin-left: 18px;"/><br><br><br>
+    <label>AMOUNT:</label>
+    <input type="text" style="background-color: slategray; margin-left: 5px;"/><br><br><br>
+    <input type="button"  class=btn-btn-primary value="PAY" id="submit" onclick="validate()"/>
+    
+                      </form>
+        </div>
+    
+                    </body>
+    </html>
+    </body>
+</html>
